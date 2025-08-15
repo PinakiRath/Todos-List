@@ -10,8 +10,8 @@ const AddTodo = ({ addTodo }) => {
       alert("Please fill all the fields");
       return;
     }
-    addTodo(title, desc); // ✅ works now
-    setTitle(""); // Clear after submit
+    addTodo(title, desc); 
+    setTitle(""); 
     setDesc("");
   };
 
